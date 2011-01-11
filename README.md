@@ -9,8 +9,8 @@ combine checker functions whiech you want with "combine-checkers"
     (def my-password-checker
 	  (combine-checkers not-blank? contains-alphabet? (length-range 3 5)))
 
-"combine-checkers" function combine checker functions with AND operator
-if you want to combine with OR operator, you can use "combine-checkers-or"
+"combine-checkers" function combine checker functions with AND operator.
+if you want to combine with OR operator, you can use "combine-checkers-or".
 
 #### checker functions
 
@@ -29,8 +29,8 @@ if you want to combine with OR operator, you can use "combine-checkers-or"
 
 #### @last-checker
 
-"@last-checker" represents last checker function name as Symbol
-with this value, you can check error point
+"@last-checker" represents last checker function name as Symbol.
+with this value, you can check error point.
 
 ## License
 
